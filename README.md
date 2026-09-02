@@ -11,11 +11,17 @@ I am in no way responsible, nor liable for the safety of your network(devices). 
 - When starting up your device, it will set the Noise-Floor in the first 10 seconds and uses a multiplier to calculate the Detection threshold. After that the device will only trigger when a sound is detected above threshold
 
 Sensitivity	Multiplier  Detection threshold
+
 0%	        9,00×      	noise floor × 9
+
 25%	        7,125×	    noise floor × 7,125
+
 50%	        5,25×	      noise floor × 5,25
+
 75%	        3,375×    	noise floor × 3,375
+
 90%	        2,25×      	noise floor × 2,25
+
 100%	      1,50×	      noise floor × 1,5
 
 **Set-up instructions:**
