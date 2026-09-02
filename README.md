@@ -10,19 +10,20 @@ I am in no way responsible, nor liable for the safety of your network(devices). 
 - There is an OTA-update function included which on request checks this Github Repository if there are any new updates available
 - When starting up your device, it will set the Noise-Floor in the first 10 seconds and uses a multiplier to calculate the Detection threshold. After that the device will only trigger when a sound is detected above threshold
 
-Sensitivity	Multiplier  Detection threshold
+**Sensitivity	  Detection threshold**
 
-0%	        9,00×      	noise floor × 9
+0%              noise floor × 9
 
-25%	        7,125×	    noise floor × 7,125
+25%	       	    noise floor × 7,125
 
-50%	        5,25×	      noise floor × 5,25
+50%	        	  noise floor × 5,25
 
-75%	        3,375×    	noise floor × 3,375
+75%	            noise floor × 3,375
 
-90%	        2,25×      	noise floor × 2,25
+90%	           	noise floor × 2,25
 
-100%	      1,50×	      noise floor × 1,5
+100%	          noise floor × 1,5
+
 
 **Set-up instructions:**
 1. Connect the ESP32 to a 5V charging device
